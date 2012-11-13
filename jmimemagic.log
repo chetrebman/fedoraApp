@@ -1,0 +1,5 @@
+2012-09-20 09:54:00,488 [Thread-680] ERROR net.sf.jmimemagic.Magic - getMagicMatch(File): java.io.FileNotFoundException: /home/chet/etd/pco/dissertationdatadvd.m4v (No such file or directory)
+2012-09-20 10:06:54,231 [Thread-680] ERROR net.sf.jmimemagic.Magic - getMagicMatch(File): java.io.FileNotFoundException: /home/chet/etd/pco/dissertationdatadvd.m4v (No such file or directory)
+2012-09-20 10:57:06,312 [Thread-680] ERROR net.sf.jmimemagic.Magic - getMagicMatch(File): java.io.FileNotFoundException: /home/chet/etd/pco/dissertationdatadvd.m4v (No such file or directory)
+2012-09-20 11:21:28,131 [Thread-680] ERROR net.sf.jmimemagic.Magic - getMagicMatch(File): java.io.FileNotFoundException: /home/chet/etd/pco/dissertationdatadvd.m4v (No such file or directory)
+2012-10-31 10:20:00,609 [main] ERROR edu.du.penrose.systems.util.SendMail - ERROR sending email:Sending the email to the following server failed : smtp.indra.com:465

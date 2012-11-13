@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/fedoraApp"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.debug.core.appendEnvironmentVariables" value="true"/>
+<listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+<listEntry value="org.eclipse.debug.ui.launchGroup.debug"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.jdt.debug.ui.CONSIDER_INHERITED_MAIN" value="true"/>
+<booleanAttribute key="org.eclipse.jdt.debug.ui.INCLUDE_EXTERNAL_JARS" value="true"/>
+<listAttribute key="org.eclipse.jdt.launching.CLASSPATH">
+
+<!-- 
+  CHET created symbolic for each module 
+
+ln -s /home/chet/javadev/fedoraApp/WebContent/edu.du.penrose.systems.fedoraApp.web.gwt.batchIngest.BatchIngestStatus /edu.du.penrose.systems.fedoraApp.web.gwt.batchIngest.BatchIngestStatus
+
+    for EACH module. So that we can find the serialization file. This needed because I am using the -noserver option. Without the link you get intermittent serialization errors
+-->
+
+<!-- 
+  As of August 2012 chrome does not work any more, start up the gwt debugger (this file) click launch default browser, copy url and pasted into a firefox window that is all ready at the status page.
+-->
+
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;runtimeClasspathEntry containerPath=&quot;org.eclipse.jdt.launching.JRE_CONTAINER&quot; javaProject=&quot;fedoraApp&quot; path=&quot;1&quot; type=&quot;4&quot;/&gt;&#13;&#10;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;runtimeClasspathEntry internalArchive=&quot;/fedoraApp/build/classes&quot; path=&quot;3&quot; type=&quot;2&quot;/&gt;&#13;&#10;"/>
+
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;runtimeClasspathEntry externalArchive=&quot;/home/chet/gwt/gwt-2.0.3/gwt-dev.jar&quot; path=&quot;3&quot; type=&quot;2&quot;/&gt;&#13;&#10;"/>
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;runtimeClasspathEntry externalArchive=&quot;/home/chet/gwt/gwt-2.0.3/gwt-user.jar&quot; path=&quot;3&quot; type=&quot;2&quot;/&gt;&#13;&#10;"/>
+
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;runtimeClasspathEntry internalArchive=&quot;/fedoraApp/src&quot; path=&quot;3&quot; type=&quot;2&quot;/&gt;&#13;&#10;"/>
+
+<listEntry value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;runtimeClasspathEntry externalArchive=&quot;/home/chet/javadev/fedoraApp/WebContent/WEB-INF/lib/gwt-incubator-20100204-r1747.jar&quot; path=&quot;3&quot; type=&quot;2&quot;/&gt;&#13;&#10;"/>
+
+</listAttribute>
+
+<booleanAttribute key="org.eclipse.jdt.launching.DEFAULT_CLASSPATH" value="false"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.google.gwt.dev.DevMode"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-noserver -startupUrl http://localhost:7080/fedoraApp/edu.du.penrose.systems.fedoraApp.web.gwt.batchIngest.BatchIngestStatus/batchIngestStatus.jsp edu.du.penrose.systems.fedoraApp.web.gwt.batchIngest.BatchIngestStatus edu.du.penrose.systems.fedoraApp.web.gwt.batchIngest.BatchIngestStatus"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="fedoraApp"/>
+</launchConfiguration>
