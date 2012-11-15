@@ -1,4 +1,4 @@
-FedoraApp - November 13 2012
+FedoraApp - November 14 2012
 
 fedoraApp is a Fedora Commons Digital Repository METS/MODS Batch Ingester
 
