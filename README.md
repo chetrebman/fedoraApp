@@ -22,7 +22,7 @@ jetty along with both fedoraApp and fedoraProxy and look at the sample batch fil
 
 https://github.com/chetrebman/fedoraApp-fedoraProxy-complete
 
-Check out the /fedoraApp/doc directory for the fedoraApp API
+Check out the /fedoraApp/doc directory for the fedoraApp API and other documentation
 
 Happy Ingesting!
 
