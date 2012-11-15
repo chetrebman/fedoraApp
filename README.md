@@ -16,11 +16,13 @@ FedoraApp is a stand alone application, for manually ingesting batch files into 
 FedoraApp works with fedoraProxy to perform remote ingests. 
 
 FedoraApp has been used extensively by The Colorado Alliance of Research Libraries and is reliable. However being a single person rather then a software department, I haven't had
-to time to extensively document the big picture, so I choose to create a working example instead.
+the time to extensively document the big picture, so I choose to create a working example instead.
 Therefore even if you intend to run fedoraApp stand-alone, it is recommended you look at the github download that contains
 jetty along with both fedoraApp and fedoraProxy and look at the sample batch files and tutorial.
 
-Check out the doc directory for the API
+https://github.com/chetrebman/fedoraApp-fedoraProxy-complete
+
+Check out the /fedoraApp/doc directory for the fedoraApp API
 
 Happy Ingesting!
 
